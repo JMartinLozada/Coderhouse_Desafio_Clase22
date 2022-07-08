@@ -1,0 +1,18 @@
+{
+  "id": "mensaje",
+  "mensaje": [
+    {
+      "author": {
+        "id": "d@s",
+        "nombre": "Martin",
+        "apellido": "Lozada",
+        "edad": "4",
+        "alias": "martin",
+        "avatar": "ert"
+      },
+      "text": "ss",
+      "date": "[7/7/2022 20:22]",
+      "id": 1
+    }
+  ]
+}

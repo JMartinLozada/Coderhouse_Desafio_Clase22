@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Mensajes</title>
+    <script src="/socket.io/socket.io.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div style="margin: auto; width: 250px;" id="id_del_div_compresion"></div><br> 
+    
+    <form style="margin: auto; width: 220px;" onsubmit="return enviarMensaje()">
+      <label>Email:    <input type="email" id="email"></label><br>
+      <label>Nombre:   <input type="text" id="nombre"></label><br>
+      <label>Apellido: <input type="text" id="apellido"></label><br>
+      <label>Edad:     <input type="number" id="edad"><label><br>
+      <label>Alias:    <input type="text" id="alias"></label><br>
+      <label>Avatar:   <input type="text" id="avatar"></label><br>
+
+      <div id="id_del_div_chat"></div><br>
+      
+      <label> Mensaje: <input type="text" id="text"></label><br><br>
+      
+      <button type="submit">Enviar mensaje</button>
+
+    </form>
+
+  </body>
+</html>
